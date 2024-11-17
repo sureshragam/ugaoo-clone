@@ -1,0 +1,256 @@
+:root{
+  --header_background_color:rgba(255,246,244,255);
+  --header_font_color:rgb(15, 76, 54)
+}
+
+.App {
+  text-align: center;
+  font-family: Outfit, sans-serif !important;
+}
+.header{
+  display: flex;
+  align-items: center;
+  background-color: var(--header_background_color);
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+
+}
+header>img{
+  width: 8rem;
+  aspect-ratio: "1:2";
+}
+header>nav>ul{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 1.44px;
+  line-height: 21.6px;
+  text-transform: uppercase;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  color: var(--header_font_color);
+}
+nav>ul>li{
+  padding: 0;
+  width: fit-content;
+}
+nav>ul>li>input{
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+ }
+ .whyUgaoo{
+  background-color: #eff8f2;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+ }
+ .whyUgaoo>article{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 2rem;
+ }
+ article>div{
+  text-align: center;
+  margin: auto;
+ }
+ article>div>img{
+  width: 3rem;
+ }
+ .plantSubscription{
+  background-color:#eff8f2;
+  height: 80vh;
+  padding: 2rem;
+
+}
+.plantSubscription>article{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+.plantSubscription>article>div{
+  flex-basis: 50%;
+  align-items: center;
+}
+.plantSubscription>article>div:first-child{
+  height: inherit;
+}
+.plantSubscription>article>div>img{
+  width: 100%;
+  height: inherit;
+}
+.exploreboxes{
+  width: 250px;
+}
+.customerFeedback{
+  padding: 2rem 15rem;
+}
+.customerFeedback>p{
+  font-size: 1rem;
+}
+.customerFeedback>span{
+  text-align: center;
+  display: block;
+  font-style: italic;
+  font-family: 'Outfit',sans-serif;
+}
+.rating{
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.rating::after{
+  content: '\2605\2605\2605\2605\2605';
+  width: 100px;
+  color: rgb(255, 181, 3);
+  font-size: 2rem;
+  position: relative;
+  top: 0;
+}
+.testimonals{
+  width: inherit;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap:3rem; 
+  margin: auto;
+}
+.testimonals>img{
+  border-radius: 40%;
+  width: 5rem;
+}
+.testimonals>img:nth-child(2){
+  width: 10rem;
+}
+.rewardClub{
+  background-color:#eff8f2;
+  height: 70vh;
+  padding: 2rem;
+
+}
+.rewardClub>article{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  gap:2rem
+}
+.rewardClub>article>div{
+  flex-basis: 50%;
+  align-items: center;
+  
+}
+.rewardClub>article>div:first-child{
+  height: inherit;
+  max-height: fit-content;
+  flex-basis: 50%;
+  overflow: hidden;
+  
+}
+.rewardClub>article>div>img{
+  width: 90%;
+  height: inherit;
+  transform: scale(1.4);
+}
+.about{
+}
+.about>article{
+  width: 80%;
+  margin: auto;
+}
+.about>article>p{
+  font-size: 1.1rem;
+}
+.about>div{
+  background-color:#114c36;
+  height:3.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+.about>div>div{
+  display: flex;
+  align-items: center;
+  color: white;
+}
+footer{
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+}
+footer>article{
+  flex-basis: 20%;
+}
+footer h3{
+  font-family: 'Outfit',sans-serif;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 400;
+  font-style: normal;
+}
+footer ul{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap:0.5rem
+}
+footer ul>li{
+  text-align: left;
+  font-family: 'Outfit',sans-serif;
+  font-size: 0.8rem;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+  line-height: 32px;
+}
+footer p{
+  text-align: left;
+  font-family: 'Outfit',sans-serif;
+  font-size: 0.8rem;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+  line-height: 32px;
+}
+.inputcontainer{
+  height: 40px;
+  position: relative;
+}
+.inputcontainer>input{
+  border: none;
+  height: inherit;
+  position: absolute;
+  left: 0;
+  padding-left: 10px;
+  width: 80%;
+  outline: none;
+}
+.inputcontainer> img{
+  position: absolute;
+  width: 1.2rem;
+  right: 10px;
+  top: 30%;
+  transition: right 0.5s ease,width 0.5s ease;
+}
+.inputcontainer:hover{
+  outline: 1px solid rgb(210, 213, 217)
+}
+.inputcontainer:hover img{
+  right: 15px;
+  width: 1.1rem;
+} 
+.inputcontainer img:hover{
+  right: 15px;
+  width: 1.2rem;
+} 
