@@ -15,7 +15,7 @@ jobs:
       - name: Install Dependencies
         run: npm ci
       - name: Build Project
-        run: npm build
+        run: npm run build
       - name: Configure Git
         run: |
           git config --global user.name "Github Action"
