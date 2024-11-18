@@ -36,12 +36,14 @@ ul>li{
     padding: 1.5rem 1.5rem;
     list-style-type: none;
     background-color: var(--header_background_color);
+    width: fit-content;
   }
   .dropdown>ul>li{
     color: var(--header_font_color);
     position: relative;
     margin-bottom: 1rem;
     text-transform: capitalize;
+    text-wrap: nowrap;
   }
   .dropdown>ul>li::after{
     content: " ";

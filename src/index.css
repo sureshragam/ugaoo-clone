@@ -46,3 +46,16 @@ button{
   cursor:pointer;
   margin-top:0
 }
+
+@media screen and (max-width:650px) {
+  h2{
+    font-size:1.2rem
+  }
+  button{
+    padding: 0.5rem 0.5rem;
+    font-size: 12px;
+  }
+  p{
+    font-size: 1rem;
+  }
+}

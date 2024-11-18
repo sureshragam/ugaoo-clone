@@ -12,11 +12,13 @@ import selfwater from '../src/assets/uagoo-clone/Pot_2x_small_5598237e-2d07-4270
 import plantSubscription from '../src/assets/uagoo-clone/Subscription_Stop_Motion.webp'
 import rewardClub from '../src/assets/uagoo-clone/PPC.webp'
 import arrow from '../src/assets/uagoo-clone/arrow.svg'
-
+import { RxHamburgerMenu } from "react-icons/rx";
+import { LogoBar } from './component/LogoBar/LogoBar';
 function App() {
   return (
     <div className="App">
       <header className={classes.header}>
+      <RxHamburgerMenu className={classes.hamburger}/>
         <img src={logo} alt="Ugaoo"/>
         <nav>
           <ul>
@@ -35,47 +37,24 @@ function App() {
             <li>icon</li>
           </ul>
         </nav>
+        <input type='search' placeholder="Search for plants, seeds and planters..."/>
       </header>
       <Banner/>
-      <CardsComponent data={logoBarData} styleProp={{width:'10rem'}} title=''/>
+      <LogoBar data={logoBarData} styleProp={{width:'10rem'}} title=''/>
       <CardsComponent data={bestPickData} styleProp={{width:'20rem'}} title='Best Picks'/>
       <CardsComponent data={bestSellerData} styleProp={{width:'20rem'}} sale={true} title='Best Sellers'>
         <p style={{marginBlock:0,color:'rgb(20, 146, 83)'}}>From 499</p>
-        <button 
-        style={{backgroundColor:' #149253',width:'100%',
-          borderStyle:'none',padding:'1rem 2rem',
-          borderRadius:'5px',color:'white',
-          fontFamily:'"Outfit", sans-serif',
-          fontWeight:'600',fontStyle:'normal',
-          letterSpacing:'2.4px',textTransform:'uppercase',
-          border:'1px solid rgb(20, 146, 83)',
-          cursor:'pointer',
-          marginTop:0
-        }}
-        >View Product
-        </button>
+        <button >View Product</button>
       </CardsComponent>
       <CardsComponent data={newArrivalsData} title='new arrival' sale={true} discount="-16%" styleProp={{width:'20rem'}}>
       <p style={{marginBlock:0,color:'rgb(20, 146, 83)'}}>From 499</p>
-        <button 
-        style={{backgroundColor:' #149253',width:'100%',
-          borderStyle:'none',padding:'1rem 2rem',
-          borderRadius:'5px',color:'white',
-          fontFamily:'"Outfit", sans-serif',
-          fontWeight:'600',fontStyle:'normal',
-          letterSpacing:'2.4px',textTransform:'uppercase',
-          border:'1px solid rgb(20, 146, 83)',
-          cursor:'pointer',
-          marginTop:0
-        }}
-        >View Product
-        </button>
+        <button >View Product</button>
       </CardsComponent>
       <iframe
       style={{border: 'none', aspectRatio:'16:9'}}
       loading='lazy'
        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen
-       title="This is a plant! Ugaoo Series A Funding Announcement" src="https://www.youtube.com/embed/Rfqr64hIBK8?rel=0" width="100%" height={500}></iframe>
+       title="This is a plant! Ugaoo Series A Funding Announcement" src="https://www.youtube.com/embed/Rfqr64hIBK8?rel=0" height={500}></iframe>
       <section>
         <h2>Shop the look</h2>
         <img src={sitOut} alt="Shop The look" width='100%' />
@@ -100,10 +79,10 @@ function App() {
       style={{border: 'none', aspectRatio:'16:9'}}
       loading='lazy'
        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen
-       title="This is a plant! Ugaoo Series A Funding Announcement" src="https://www.youtube.com/embed/Xq2iDxLWgB0?list=TLGG-t9mV2bVfmsxNzExMjAyNA"width="100%" height={500}></iframe>
+       title="This is a plant! Ugaoo Series A Funding Announcement" src="https://www.youtube.com/embed/Xq2iDxLWgB0?list=TLGG-t9mV2bVfmsxNzExMjAyNA"></iframe>
       </section>
-      <section>
-        <article style={{padding:'2rem 3rem'}}>
+      <section className={classes.experinceTreeTab}>
+        <article>
           <h2>Experience the magic of growing plants</h2>
           <p style={{width:'80%',margin:'auto'}}>Ugaoo is here to inspire you to have plants around you. To look at life in a very different way, helping you connect with nature. Each plant you buy is packed and shipped with care, from our 25-acre farm to your doorstep.</p>
         </article>
@@ -139,8 +118,8 @@ function App() {
           <div>
             <h2>Join our Plant Parent Rewards Club</h2>
             <p>Every plant purchase is a gift that keeps on giving. Earn coins and redeem them for exclusive discounts.</p>
-            <button style={{width:'250px',marginRight:'1rem'}}>learn more</button>
-            <button style={{width:"250px"}}>refer a friend</button>
+            <button>learn more</button>
+            <button>refer a friend</button>
           </div>
         </article>
       </section>

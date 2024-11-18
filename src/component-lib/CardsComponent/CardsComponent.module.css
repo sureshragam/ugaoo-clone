@@ -1,26 +1,28 @@
-.logobar{
+.card{
 width: 100%;
 }
-.logobar>ul{
+.card>ul{
     display: flex;
     list-style-type: none;
     padding: 10px 20px;
     justify-content: space-between;
     gap:1rem;
-    flex-wrap: wrap;    
+    flex-wrap: wrap; 
 }
-ul>li{
+.card ul>li{
     text-align: center;
     flex-shrink: 0;
-    width: 10rem;
+    width: 20rem;
 }
-li>p{
+.card >ul>li>p{
     text-transform: capitalize;
     line-height: 40px;
     font-size: 1.2rem;
     font-weight: 400;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
 }
-li>img{
+.card li>img{
     width: 100%;
     transform: scale(1.05);
     transition: transform 0.3s ease;
@@ -42,3 +44,26 @@ li>img:hover{
     border-radius:5px;
     padding: 0.5rem 1.3rem;
 }
+
+/* for small Devices */
+@media  all and (max-width:650px) {
+    .card>ul{
+        flex-wrap: none;
+    }
+    .card>ul>li{
+        width: 45%;
+        flex-grow: 1;
+    }
+    .card>ul>li>img{
+        width: 100%;
+    }
+    .card>ul>li>p{
+        font-size: 1rem;
+        margin: 0;
+    }
+    .sale{
+        font-size: 0.8rem;
+        padding: 0.2rem 0.5rem;
+    }
+}
+

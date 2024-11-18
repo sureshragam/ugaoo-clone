@@ -3,6 +3,7 @@
     position: relative;
     padding-bottom: 2rem;
     overflow: hidden;
+    height: fit-content;
 }
 .bannerContent>p{
     text-align: center;
@@ -13,8 +14,9 @@
     display: inline;
 }
 .bannerImageContainer{
-    height: 70vh;
     position: relative;
+    top:90px;
+    height: 80vh;
 }
 .bannerImageContainer>img{
     width: 100%;
@@ -24,6 +26,7 @@
     opacity: 0;
     transform: scale(1.1);
     transition: opacity 0.5s ease, left 0.5s ease, transform 1s ease-in-out;
+    object-fit: cover;
     
 }
 .bannerImage.active{
@@ -47,4 +50,34 @@
 }
 .bannerContent>button>a>img{
     width: 100%;
+}
+.largebanner{
+    display: block;
+}
+.smallbanner{
+    display: none;
+}
+
+@media screen and (max-width:650px){
+    .smallbanner{
+        display: block;
+    }
+    .largebanner{
+        display: none;
+    }
+    .bannerImageContainer{
+        height: 55vh;
+    }
+    .bannerContent>p{
+        font-size: 12px;
+    }
+    .bannerContent>button{
+        font-size: 0.5rem;
+        padding: 5px;
+        width: 100px;
+    }
+    .bannerContent>button>img{
+        width: 100%;
+        padding: 5px;
+    }
 }
