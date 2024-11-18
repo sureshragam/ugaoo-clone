@@ -9,7 +9,7 @@ jobs:
         with:
           path: .
       - name: Setup Nodejs
-        uses: actions/setu-node@v4
+        uses: actions/setup-node@v4
         with:
           node-version: 14
       - name: Install Dependencies
