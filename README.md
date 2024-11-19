@@ -9,9 +9,9 @@ This repository contains the clone of the [Ugaoo](https://www.ugaoo.com/) websit
 
 ### Mobile View
 <div>
-   <img src="./src/assets/screenshots/mobile-view.png" alt="Mobile View" width="300px">
-   <img src="./src/assets/screenshots/mobile-view1.png" alt="Mobile View" width="300px">
-   <img src="./src/assets/screenshots/mobile-view2.png" alt="Mobile View" width="300px">
+   <img src="./src/assets/screenshots/mobile-view.png" alt="Mobile View" width="250px">
+   <img src="./src/assets/screenshots/mobile-view1.png" alt="Mobile View" width="250px">
+   <img src="./src/assets/screenshots/mobile-view2.png" alt="Mobile View" width="250px">
 </div>
 
 ## Features
