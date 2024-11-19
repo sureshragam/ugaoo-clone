@@ -7,7 +7,6 @@ import appStore from '../../assets/uagoo-clone/Desktop_App_Store_Button_fc5a2c57
 import bannerSmall1 from "../../assets/uagoo-clone/banner_mob_1.webp"
 import bannerSmall2 from "../../assets/uagoo-clone/banner_mobile_2.webp"
 import bannerSmall3 from "../../assets/uagoo-clone/banner_mobile_3.webp"
-import bannerSmall4 from "../../assets/uagoo-clone/banner_mobile_4.webp"
 import { useEffect, useState } from "react"
 
 const images = [banner1,banner2,banner3]
