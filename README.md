@@ -5,10 +5,10 @@ This repository contains the clone of the [Ugaoo](https://www.ugaoo.com/) websit
 ## Screenshots
 
 ### Desktop View
-![Desktop View](./assets/screenshots/desktop-view.png)
+![Desktop View](./src/assets/screenshots/desktop-view.png)
 
 ### Mobile View
-![Mobile View](./assets/screenshots/mobile-view.png)
+![Mobile View](./src/assets/screenshots/mobile-view.png)
 
 
 ## Features
