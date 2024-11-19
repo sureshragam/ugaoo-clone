@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/ugaoo-clone/static/css/main.c6690690.css",
-    "main.js": "/ugaoo-clone/static/js/main.17346ef0.js",
+    "main.css": "/ugaoo-clone/static/css/main.41773c01.css",
+    "main.js": "/ugaoo-clone/static/js/main.ec78efcd.js",
     "static/js/453.062f9d9c.chunk.js": "/ugaoo-clone/static/js/453.062f9d9c.chunk.js",
     "static/media/Subscription_Stop_Motion.webp": "/ugaoo-clone/static/media/Subscription_Stop_Motion.ab9ae44bcc004ac9ed4f.webp",
     "static/media/3_10_43141530-c3ec-45b0-8341-4396c6731f91.webp": "/ugaoo-clone/static/media/3_10_43141530-c3ec-45b0-8341-4396c6731f91.490744cb7d4ca929b2c6.webp",
     "static/media/2_11.webp": "/ugaoo-clone/static/media/2_11.cb6d961e69ec7ae7ed79.webp",
+    "static/media/banner_mob_1.webp": "/ugaoo-clone/static/media/banner_mob_1.a40befaf5a03ed7c3d63.webp",
     "static/media/Sitout_Area_Final-2.webp": "/ugaoo-clone/static/media/Sitout_Area_Final-2.6692b558da5bf6e21970.webp",
     "static/media/1_12_fee6f911-f778-4fd9-bae8-979939f2e2a6.webp": "/ugaoo-clone/static/media/1_12_fee6f911-f778-4fd9-bae8-979939f2e2a6.f3fdbb8b33fc6fb97173.webp",
+    "static/media/banner_mobile_3.webp": "/ugaoo-clone/static/media/banner_mobile_3.65426e0daeb17f5df590.webp",
     "static/media/PPC.webp": "/ugaoo-clone/static/media/PPC.c3564e6c385e24556b1b.webp",
     "static/media/vegetableseeds.webp": "/ugaoo-clone/static/media/vegetableseeds.a86a4c83264f73264848.webp",
+    "static/media/banner_mobile_2.webp": "/ugaoo-clone/static/media/banner_mobile_2.d6a4a4d2d149c3d46499.webp",
     "static/media/Generic_TIle_Images-01.webp": "/ugaoo-clone/static/media/Generic_TIle_Images-01.9ac021ad8b3cd19c01dc.webp",
     "static/media/Generic_TIle_Images-02_1.webp": "/ugaoo-clone/static/media/Generic_TIle_Images-02_1.b0a9b047d6b477af5280.webp",
     "static/media/Generic_TIle_Images-03.webp": "/ugaoo-clone/static/media/Generic_TIle_Images-03.6274ab39e573212a54a7.webp",
@@ -35,12 +38,12 @@
     "static/media/Pot_2x_small_5598237e-2d07-4270-a7bb-95482177c4e0_medium.avif": "/ugaoo-clone/static/media/Pot_2x_small_5598237e-2d07-4270-a7bb-95482177c4e0_medium.05321e3698199c08758b.avif",
     "index.html": "/ugaoo-clone/index.html",
     "static/media/arrow.svg": "/ugaoo-clone/static/media/arrow.ac2b55d784a734f7c1b7f56c88b059ae.svg",
-    "main.c6690690.css.map": "/ugaoo-clone/static/css/main.c6690690.css.map",
-    "main.17346ef0.js.map": "/ugaoo-clone/static/js/main.17346ef0.js.map",
+    "main.41773c01.css.map": "/ugaoo-clone/static/css/main.41773c01.css.map",
+    "main.ec78efcd.js.map": "/ugaoo-clone/static/js/main.ec78efcd.js.map",
     "453.062f9d9c.chunk.js.map": "/ugaoo-clone/static/js/453.062f9d9c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6690690.css",
-    "static/js/main.17346ef0.js"
+    "static/css/main.41773c01.css",
+    "static/js/main.ec78efcd.js"
   ]
 }
