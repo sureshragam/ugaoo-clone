@@ -275,8 +275,54 @@ iframe{
 .rewardClub button{
   width: 250px;
 }
+aside{
+  display: block;
+  position: absolute;
+  top: 3rem;
+  height: 100vh;
+  opacity: 0;
+}
+.asideActive{
+  animation: sidebar-open 0.5s linear forwards ;
+  left:0;
+  opacity: 1;
+}
+.asideHide{
+  left:-90vw;
+  
+}
+@keyframes sidebar-open {
+  0%{
+    left:-90vw
+  }
+  100%{
+    left:0
+  }
+}
 
-/* for small devices */
+aside>ul{
+  list-style-type: none;
+  width: 90vw;
+  background-color: var(--header_background_color);
+  margin-top: 1rem;
+  padding-left: 1rem;
+  
+}
+aside>ul>li{
+  color: var(--header_font_color);
+  width: 100%;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    text-wrap: nowrap;
+    text-align: start;
+    padding-bottom: 1rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent transparent rgb(202, 223, 212) transparent;
+}
+
+
+/******** for small devices **********/
 @media all and (max-width:650px) {
   .hamburger{
     display: block;

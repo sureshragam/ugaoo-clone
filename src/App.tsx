@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './assets/uagoo-clone/logo.avif'
 import classes from "./App.module.css"
 import HeaderLink from './component-lib/HeaderLink/HeaderLink';
@@ -15,10 +15,28 @@ import arrow from '../src/assets/uagoo-clone/arrow.svg'
 import { RxHamburgerMenu } from "react-icons/rx";
 import { LogoBar } from './component/LogoBar/LogoBar';
 function App() {
+  const [hamburgerFlag,setHamburgerFlag] = useState<boolean>(false)
+
+  const handleBurgerClick = () =>{
+    setHamburgerFlag(prevFlag =>{
+      return !prevFlag
+    })
+  }
+
   return (
     <div className="App">
       <header className={classes.header}>
-      <RxHamburgerMenu className={classes.hamburger}/>
+      <RxHamburgerMenu className={classes.hamburger} role="button" onClick={handleBurgerClick}/>
+      <aside className={hamburgerFlag ?  classes.asideActive:classes.asideHide}>
+        <ul>
+          <li>Plants</li>
+          <li>Seeds</li>
+          <li>Pots & Planters</li>
+          <li>Gifting</li>
+          <li>Blog</li>
+          <li>offers</li>
+        </ul>
+      </aside>
         <img src={logo} alt="Ugaoo"/>
         <nav>
           <ul>
