@@ -1,46 +1,79 @@
-# Getting Started with Create React App
+# Ugaoo Clone Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the clone of the [Ugaoo](https://www.ugaoo.com/) website, built for learning and practice purposes. The aim of this project is to replicate the look and functionality of the Ugaoo website while exploring modern web development practices.
 
-## Available Scripts
+## Screenshots
 
-In the project directory, you can run:
+### Desktop View
+![Desktop View](./assets/screenshots/desktop-view.png)
 
-### `npm start`
+### Mobile View
+![Mobile View](./assets/screenshots/mobile-view.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Responsive Design**: Optimized for desktop, tablet, and mobile views.
+- **Dynamic Functionality**: Interactive UI elements for an enhanced user experience.
+- **Modern Tech Stack**: Built using React with TypeScript and CSS Modules for styling.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+- **Frontend**: React.js, HTML5, CSS, JavaScript (ES6+)
+- **SStyling**: CSS Modules for component-scoped styles.
+- **Deployment**: GitHub Pages.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation and Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sureshragam/ugaoo-clone.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd ugaoo-clone
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+5. Open the application in your browser at http://localhost:3000.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Scripts
+The following npm scripts are available:
 
-### `npm run eject`
+- npm start: Start the development server.
+- npm run build: Create a production-ready build.
+- npm test: Run tests.
+- npm run eject: Eject the project configuration.
+- npm run deploy: Deploy the project to GitHub Pages.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Deployment
+The project is deployed to GitHub Pages. To deploy the latest version:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Ensure your code is committed to the main branch.
+Run:
+```bash
+  npm run deploy
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Contributing
+Contributions are welcome! If you find a bug or want to add a feature:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Fork the repository.
+Create a new branch: git checkout -b feature-name.
+Make your changes and commit: git commit -m 'Add feature-name'.
+Push to the branch: git push origin feature-name.
+Open a Pull Request.
+## License
+This project is for educational purposes and is not intended for commercial use. The original design and content belong to Ugaoo.
 
-## Learn More
+## Acknowledgments
+The original Ugaoo website for its inspiration.
+Resources and documentation from React, TypeScript, and CSS Modules.
+   
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
