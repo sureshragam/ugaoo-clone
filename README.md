@@ -8,8 +8,11 @@ This repository contains the clone of the [Ugaoo](https://www.ugaoo.com/) websit
 ![Desktop View](./src/assets/screenshots/desktop-view.png)
 
 ### Mobile View
-![Mobile View](./src/assets/screenshots/mobile-view.png)
-
+<div>
+   <img src="./src/assets/screenshots/mobile-view.png" alt="Mobile View" width="300px">
+   <img src="./src/assets/screenshots/mobile-view1.png" alt="Mobile View" width="300px">
+   <img src="./src/assets/screenshots/mobile-view2.png" alt="Mobile View" width="300px">
+</div>
 
 ## Features
 
